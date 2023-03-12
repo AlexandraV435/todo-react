@@ -1,0 +1,28 @@
+.App {
+  background: #20212c;
+  min-height: 100vh; 
+}
+
+.postListInApp {
+  margin-left: 30px;
+}
+
+.wrapper_btn {
+  display: flex;
+  width: 100vw;
+  background: #2c2c37;
+  height: 70px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: end;
+}
+
+.name {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 27px;
+  font-family: Oswald;
+  letter-spacing: 1.5px;
+  color: white
+}

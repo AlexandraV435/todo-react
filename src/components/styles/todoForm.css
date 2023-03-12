@@ -1,0 +1,69 @@
+p {
+  font-family: Lato-light;
+}
+
+input {
+  position: relative;
+  font-family: Lato-light;
+  outline: none;
+  padding: 10px;
+  border: 0.5px solid #727272;
+  border-radius: 5px;
+  background: none;
+  margin-top: 10px;
+  color: white;
+  justify-content: center;
+  letter-spacing: 0.7px;
+}
+
+input:focus {
+  border: 0.5px solid rgb(185, 184, 184);
+}
+
+form {
+  width: 45vw;
+  max-width: 370px;
+  height: 65vh;
+  max-height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input_wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.input_wrapper p {
+  color: white
+}
+
+.myButton {
+  background: #6163c1;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+  border-radius: 17px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.description {
+  min-height: 50px;
+  height: auto;
+}
+
+::-webkit-input-placeholder {
+  white-space:pre-line;  
+  position:relative;
+  color: #727272
+}
+
+.addNewTask {
+  color: white
+}

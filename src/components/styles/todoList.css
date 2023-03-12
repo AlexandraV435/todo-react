@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald"), url(./fonts/Oswald-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-light";
+  src: local("Lato-light"), url(./fonts/Lato-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-bold";
+  src: local("Lato-bold"), url(./fonts/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: local("robot"), url(./fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+.postList {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperDoing, .wrapperDone {
+  display: flex;
+  align-items: center;
+  font-family: Lato-bold;
+  width: 45vw;
+  max-width: 400px;
+  justify-content: center;
+}
+
+.statusDoing, .statusDone {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.statusDoing {
+  background: #7e76eb;
+}
+
+.statusDone {
+  background: #88e0b2;
+}
+
+.doing, .done {
+  color: #8c8c8d;
+  font-size: 13px;
+}
